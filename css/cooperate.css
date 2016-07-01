@@ -1,0 +1,82 @@
+.cooperate{
+    width:800px;
+    padding-top:70px;
+    padding-bottom:60px;
+    margin:200px auto;
+}
+.form-horizontal .form-group{
+    margin-right:0;
+    margin-left:0;
+}
+.form-control{
+    height:50px;
+    line-height: 50px;
+    border:1px solid #e5e5e5;
+    padding-left:30px;
+}
+input{
+    font-family: "Microsoft YaHei";
+}
+.form-horizontal .control-label{
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    border: 1px solid #e5e5e5;
+    border-right: 0;
+    text-align: center;
+}
+.form-control{
+    border-radius: 0;
+    background: #f5f5f5;
+}
+.form-group {
+    margin-bottom: 50px;
+}
+.col-sm-9,.col-sm-3{
+    padding:0;
+}
+.client-numbers{
+    height:100px;
+}
+.form-horizontal .client-numbers  .control-label{
+    height:100px;
+    line-height: 100px;
+    padding:0;
+}
+#buttons{
+    height:100px;
+}
+#buttons .btn-group{
+    width: 100%;
+}
+.client-numbers .btn{
+    width:33.3333%;
+    height:100px;
+    line-height: 84px;
+    border:1px solid #ccc;
+}
+.client-numbers .btn:active, .btn.active{
+    background-color: #ff7077;
+    color:#fff;
+}
+.client-numbers .btn:first-child,
+.client-numbers .btn:last-child{
+    border-radius: 0;
+}
+.btn-submit{
+    width: 50%;
+    font-size: 18px;
+    line-height: 40px;
+    margin:100px 25%;
+    background: #4382fa;
+    color:#fff;
+}
+ @media (max-width:768px) {
+     .cooperate{
+         width:100%;
+     }
+     .form-horizontal .form-group{
+         width: 100%;
+     }
+ }

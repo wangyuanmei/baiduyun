@@ -1,0 +1,128 @@
+/*内容优化*/
+.perfect-contents {
+    width:320px;
+    height:231px;
+    padding-left:40px;
+    border-bottom:2px solid #dcdcdc;
+}
+.wrap {
+    width: 40px;
+    height:100%;
+    position: relative;
+    float:left;
+    margin: auto 20px;
+}
+.wrap1 {
+    background:#ffbd31;
+}
+.wrap2 {
+    background:#6ee690;
+}
+.wrap3 {
+    background:#f3709b;
+}
+.wrap .bg{
+    width:42px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background-color: #ededed;
+
+    /*animation-fill-mode: forwards;*/
+}
+
+.wrap .bg1 {
+    height:25%;
+    animation: down1 linear 8s infinite;
+}
+.wrap .bg2 {
+    height:50%;
+    animation: down2 linear 8s infinite;
+}
+.wrap .bg3 {
+    height:75%;
+    animation: down3 linear 8s infinite;
+}
+.wrap .bar{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.wrap .bar1 {
+    height: 50%;
+}
+.wrap .bar2 {
+    height: 50%;
+}
+.wrap .bar3 {
+    height: 50%;
+}
+
+
+@keyframes down1 {
+    0% {
+        height: 0%;
+    }
+    25% {
+        height: 25%;
+    }
+}
+@keyframes down2 {
+    0% {
+        height: 0%;
+    }
+    25% {
+        height: 25%;
+    }
+    50% {
+        height: 50%;
+    }
+}
+@keyframes down3 {
+    0% {
+        height: 0%;
+    }
+    25% {
+        height: 25%;
+    }
+    50% {
+        height: 50%;
+    }
+    75%{
+        height:75%;
+    }
+}
+.perfect-contents .marks {
+    width: 100px;
+    position: absolute;
+    left: 275px;
+    top: -40px;
+}
+.perfect-contents .marks li{
+    line-height: 36px;
+}
+.perfect-contents .marks i{
+    position: absolute;
+    display: inline-block;
+    width:8px;
+    height:8px;
+    border-radius: 4px;
+}
+.perfect-contents .marks .c1{
+    background-color: #ffbd31;
+    left:27px;
+    top:15px;
+}
+.perfect-contents .marks .js1{
+    background-color: #6ee690;
+    left:27px;
+    top:50px;
+}
+.perfect-contents .marks .h1{
+    background-color:#f3709b;
+    left:27px;
+    top:65px;
+}
+/*应用防火墙waf*/
+

@@ -1,0 +1,96 @@
+.main{
+    width:100%;
+    padding-top:70px;
+    font-family: 'Microsoft YaHei';
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.main .container{
+    /*width:1003px;*/
+}
+.main .table{
+    text-align: center;
+    font-size: 18px;
+}
+.main .table thead>tr>th{
+    vertical-align: middle;
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    border-bottom:0px;
+}
+.main .table thead>tr>th:nth-child(1){
+    font-size: 30px;
+}
+.main .table tbody .price{
+    font-size: 30px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.main .table tbody .btn{
+    height:40px;
+    border-radius: 0;
+    color:#fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+.main .table tbody .price-year{
+    line-height: 30px;
+}
+.main .table tbody .btn-pay{
+    background-color: #4382fa;
+}
+.main .table tbody .need-design{
+    line-height: 30px;
+    font-size: 20px;
+}
+.main .table tbody .btn-disable{
+    background-color: #b7b7b7;
+}
+.main .table tbody .icon-yes{
+    display: inline-block;
+    width:25px;
+    height:20px;
+    background: url(../images/icon-yes.png) center center no-repeat;
+}
+.main .table tbody .feature-title {
+    background-color: #eaf7ff;
+}
+.main .table .kefu{
+    position: relative;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .main .table .kefu .phone-text{
+        position: absolute;
+        top:-10px;
+        left:35px;
+    }
+    .main .table .kefu .pencil-text{
+        position: absolute;
+        top:-10px;
+        left:60px;
+    }
+    .main .table .kefu .qq-text{
+        position: absolute;
+        top:-10px;
+        left:95px;
+    }
+}
+@media screen and (min-width:1024px){
+    .main .table .kefu .phone-text{
+        position: absolute;
+        top:-10px;
+        left:65px;
+    }
+    .main .table .kefu .pencil-text{
+        position: absolute;
+        top:-10px;
+        left:90px;
+    }
+    .main .table .kefu .qq-text{
+        position: absolute;
+        top:-10px;
+        left:125px;
+    }
+}
